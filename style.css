@@ -22,8 +22,8 @@ body{font-family:roboto;}
 .name{
     text-align:left;
     color:brown;
-    margin-top:30px;
-    margin-bottom:30 px;
+    
+    margin-bottom:30px;
 }
 #main-menu{
     list-style:none;
@@ -49,7 +49,7 @@ body{font-family:roboto;}
     padding-right:16px;
     margin-left:  auto;
     margin-right:  auto;
-    
+    background:#FFE4B5;
     
 }
 table{
