@@ -22,6 +22,8 @@ body{font-family:roboto;}
 .name{
     text-align:left;
     color:brown;
+    margin-top:30px;
+    margin-bottom:30 px;
 }
 #main-menu{
     list-style:none;
