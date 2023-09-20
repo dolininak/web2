@@ -1,5 +1,5 @@
 *{margin:0;padding:0;}
-body{font-family:roboto;}
+body{font-family:roboto;background-color: #FFF8DC;}
 #main-nav{
     background-color:bisque;
     height:90px;
@@ -61,7 +61,7 @@ table{
     color:rgb(0, 0, 0);
     border:16px solid bisque;
     border-radius:20px;
-    width:1000px;
+    width:800px;
     height:500px;
     justify-content:center;
 
