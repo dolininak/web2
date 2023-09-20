@@ -103,18 +103,19 @@
     <h3 id="p3"> Форма</h3>
    
     <form>
-        <p><input type="text"  placeholder="Введите ФИО"  ></p>
-        <p><input type="tel"   pattern="[6-9]-[0-9][0-9]-[0-9][0-9][0-9][0-9]-[0-9][0-9][0-9]" placeholder="Введите телефон"></p>
-        <p><input type="email"  pattern=".+@aurora\.com" placeholder="Введите email" ></p>
-        <p><b>Введите дату рождения</b></p>
-        <p><input type="date"  value="2023-09-10"  ></p>
+       
+        <p><input name="t1" type="text"  placeholder="Введите ФИО"  ></p>
+        <p><input name="tl" type="tel"   pattern="[6-9]-[0-9][0-9]-[0-9][0-9][0-9][0-9]-[0-9][0-9][0-9]" placeholder="Введите телефон"></p>
+        <p><input name="em" type="email"  pattern=".+@aurora\.com" placeholder="Введите email" ></p>
+        <p><input name="dat" type="date"  value="2023-09-10" placeholder="Введите дату рождения" ></p>
         <p><b>Ваш пол</b></p>
-        <p><input  type="radio" value="женский"> женский</p>
-        <p><input  type="radio" value="мужской"> мужской</p>
-        <p><input type="submit" value="Выбрать"></p>
-        <p><b>Ваш любимый язык программирования</b></p>
-        <select   multiple>
-            <option selected value="s1">Pascal</option>
+        <p><input name="pol" type="radio" value="женский"> женский</p>
+        <p><input name="pol" type="radio" value="мужской"> мужской</p>
+        
+        <p>Ваш любимый язык программирования<p>
+        <select multiple="multiple" id="langu" name="langu[]">
+            <option disabled>Выберете</option>
+            <option  value="s1">Pascal</option>
             <option value="s2">C</option>
             <option value="s3">C++</option>
             <option value="s4">JavaScript</option>
@@ -127,10 +128,11 @@
             <option value="s11">Scala</option>
         </select>
         <p><b>Биография:</b></p>
-        <p><textarea ></textarea></p>
+        <p><textarea name ="bio"></textarea></p>
         <p>С контрактом ознакомлен</p>
-        <p><input type="checkbox" value="1"> ознакомлен</p>
-        <input type="submit" value="Сохранить">
+        <p><input name="oznakom" type="checkbox" value="1"> ознакомлен</p>
+        <p><input name="sohr" type="submit" value="Сохранить"></p>
+    
     </form>
 
     <footer class="footer"><p>(c) Долинина Ксения 2023</p></footer>
